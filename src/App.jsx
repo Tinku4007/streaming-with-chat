@@ -13,8 +13,8 @@ function App() {
         <SocketProvider>
           <PeerProvider>
             <Routes>
-              <Route path='/' element={<HomePage />} />
-              <Route path='/room/:id' element={<Room />} />
+              {/* <Route path='/' element={<HomePage />} /> */}
+              <Route path='/' element={<Room />} />
             </Routes>
           </PeerProvider>
         </SocketProvider>
